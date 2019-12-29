@@ -1,0 +1,22 @@
+# Blender MTL File: 'paredventana.blend'
+# Material Count: 2
+
+newmtl MatMadera
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.321574 0.321574 0.321574
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Jesus\Desktop\PalmBark.psd
+
+newmtl MatMetal
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.706107 0.706107 0.706107
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Metaloxi.jpg
