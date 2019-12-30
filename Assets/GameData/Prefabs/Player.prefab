@@ -266,7 +266,6 @@ GameObject:
   m_Component:
   - component: {fileID: 449704}
   - component: {fileID: 14312826}
-  - component: {fileID: 11492960}
   - component: {fileID: 11418582}
   - component: {fileID: 11491974}
   - component: {fileID: 11400228}
@@ -274,6 +273,7 @@ GameObject:
   - component: {fileID: 114005711042239020}
   - component: {fileID: 114905654823689004}
   - component: {fileID: 114334787770881692}
+  - component: {fileID: 114829650246120484}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1399,24 +1399,6 @@ MonoBehaviour:
   mouseSync: {fileID: 0}
   camera: {fileID: 141184}
   graphics: {fileID: 139356}
---- !u!114 &11492960
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 158954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f28a48a4fe4733143990a770662dcd27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  axes: 1
-  sensitivityX: 15
-  sensitivityY: 15
-  minimumX: -360
-  maximumX: 360
-  minimumY: -60
-  maximumY: 60
 --- !u!124 &12410128
 Behaviour:
   m_ObjectHideFlags: 1
@@ -1517,6 +1499,24 @@ MonoBehaviour:
   m_SnapThreshold: 5
   m_InterpolateRotation: 10
   m_InterpolateMovement: 1
+--- !u!114 &114829650246120484
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 158954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f28a48a4fe4733143990a770662dcd27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axes: 0
+  sensitivityX: 15
+  sensitivityY: 15
+  minimumX: -360
+  maximumX: 360
+  minimumY: -60
+  maximumY: 60
 --- !u!114 &114900339627774910
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1561,7 +1561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 11492960}
+  - {fileID: 0}
   - {fileID: 11418582}
   - {fileID: 11491974}
   - {fileID: 8130622}
