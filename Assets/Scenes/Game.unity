@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465785, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &4
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -120,6 +120,7 @@ GameObject:
   - component: {fileID: 7596632}
   - component: {fileID: 7596634}
   - component: {fileID: 7596633}
+  - component: {fileID: 7596635}
   m_Layer: 0
   m_Name: polySurface18_polySurface10_polySurface8
   m_TagString: Untagged
@@ -180,6 +181,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 7596631}
+  m_Mesh: {fileID: 4300012, guid: d450f59c0a6db8c44a85bccbad536391, type: 3}
+--- !u!64 &7596635
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 7596631}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300012, guid: d450f59c0a6db8c44a85bccbad536391, type: 3}
 --- !u!1 &55187190
 GameObject:
@@ -394,6 +409,7 @@ GameObject:
   - component: {fileID: 119708637}
   - component: {fileID: 119708639}
   - component: {fileID: 119708638}
+  - component: {fileID: 119708640}
   m_Layer: 0
   m_Name: polySurface10_polySurface8_polySurface19_polySurface12
   m_TagString: Untagged
@@ -454,6 +470,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 119708636}
+  m_Mesh: {fileID: 4300008, guid: d450f59c0a6db8c44a85bccbad536391, type: 3}
+--- !u!64 &119708640
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 119708636}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300008, guid: d450f59c0a6db8c44a85bccbad536391, type: 3}
 --- !u!1 &157368372
 GameObject:
@@ -517,6 +547,7 @@ GameObject:
   - component: {fileID: 161026191}
   - component: {fileID: 161026193}
   - component: {fileID: 161026192}
+  - component: {fileID: 161026194}
   m_Layer: 0
   m_Name: polySurface10_polySurface8_polySurface12_polySurface13_polySurface20
   m_TagString: Untagged
@@ -577,6 +608,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 161026190}
+  m_Mesh: {fileID: 4300004, guid: d450f59c0a6db8c44a85bccbad536391, type: 3}
+--- !u!64 &161026194
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 161026190}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300004, guid: d450f59c0a6db8c44a85bccbad536391, type: 3}
 --- !u!1 &186882199
 GameObject:
@@ -940,6 +985,7 @@ GameObject:
   - component: {fileID: 380068192}
   - component: {fileID: 380068194}
   - component: {fileID: 380068193}
+  - component: {fileID: 380068195}
   m_Layer: 0
   m_Name: polySurface10_polySurface8_polySurface12_polySurface21_polySurface13
   m_TagString: Untagged
@@ -1000,6 +1046,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 380068191}
+  m_Mesh: {fileID: 4300006, guid: d450f59c0a6db8c44a85bccbad536391, type: 3}
+--- !u!64 &380068195
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 380068191}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300006, guid: d450f59c0a6db8c44a85bccbad536391, type: 3}
 --- !u!1 &382834917
 GameObject:
@@ -1503,6 +1563,7 @@ GameObject:
   - component: {fileID: 517516447}
   - component: {fileID: 517516449}
   - component: {fileID: 517516448}
+  - component: {fileID: 517516450}
   m_Layer: 0
   m_Name: polySurface10_polySurface8_polySurface22
   m_TagString: Untagged
@@ -1563,6 +1624,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 517516446}
+  m_Mesh: {fileID: 4300010, guid: d450f59c0a6db8c44a85bccbad536391, type: 3}
+--- !u!64 &517516450
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 517516446}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300010, guid: d450f59c0a6db8c44a85bccbad536391, type: 3}
 --- !u!1 &519799252
 GameObject:
@@ -2610,6 +2685,7 @@ GameObject:
   - component: {fileID: 816064010}
   - component: {fileID: 816064012}
   - component: {fileID: 816064011}
+  - component: {fileID: 816064013}
   m_Layer: 0
   m_Name: pTorus2
   m_TagString: Untagged
@@ -2670,6 +2746,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 816064009}
+  m_Mesh: {fileID: 4300014, guid: d450f59c0a6db8c44a85bccbad536391, type: 3}
+--- !u!64 &816064013
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 816064009}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300014, guid: d450f59c0a6db8c44a85bccbad536391, type: 3}
 --- !u!1001 &873815224
 Prefab:
@@ -4731,6 +4821,7 @@ GameObject:
   - component: {fileID: 1384051072}
   - component: {fileID: 1384051074}
   - component: {fileID: 1384051073}
+  - component: {fileID: 1384051075}
   m_Layer: 0
   m_Name: pCube1
   m_TagString: Untagged
@@ -4791,6 +4882,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1384051071}
+  m_Mesh: {fileID: 4300000, guid: d450f59c0a6db8c44a85bccbad536391, type: 3}
+--- !u!64 &1384051075
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1384051071}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: d450f59c0a6db8c44a85bccbad536391, type: 3}
 --- !u!1001 &1489616399
 Prefab:
