@@ -3146,7 +3146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5731825f671d730488a108dd78bb58eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+  player: {fileID: 449704, guid: ab7bb5e7ae6d2fb4fac30d149ea9fb0e, type: 2}
 --- !u!224 &894428373 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22447078, guid: 56b05947996d74f4bb7d0d844b918d76,
