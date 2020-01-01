@@ -8,7 +8,6 @@ public class PlayerSetup : NetworkBehaviour {
 	[SerializeField]
 	Behaviour[] components;
 
-	public Camera sceneCamera;
 
 	// Use this for initialization
 	void Start () 
@@ -16,22 +15,10 @@ public class PlayerSetup : NetworkBehaviour {
 		if (!isLocalPlayer)
 			for (int i = 0; i < components.Length; i++)
 				components [i].enabled = false;
-		else 
-		{
-			
-			if (sceneCamera != null)
-				sceneCamera.gameObject.SetActive (false);
-		}
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
-	}
-
-	void OnDisable ()
-	{
-		if (sceneCamera != null)
-			sceneCamera.gameObject.SetActive (true);
 	}
 }

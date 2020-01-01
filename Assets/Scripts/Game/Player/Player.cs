@@ -7,6 +7,7 @@ public class Player : MonoBehaviour {
 	public Slider mouseSync;
 	public GameObject camera, graphics;
 
+
 	void Start() {
 	}
 
@@ -21,14 +22,16 @@ public class Player : MonoBehaviour {
 
 		if (GetComponent<NetworkView>().isMine) {
 			gameObject.name = "Player";
-			Destroy(graphics);
+			//graphics.SetActive (false);
 			gameObject.GetComponent<MouseLook>().sensitivityX = sync;
 			camera.GetComponent<MouseLook>().sensitivityY = sync;
+
 		} else {
 			gameObject.name = "Client";
-			Destroy(camera);
+			camera.SetActive (false);
 			gameObject.GetComponent<MouseLook>().enabled = false;
 			gameObject.GetComponent<PlayerMove>().enabled = false;
+			gameObject.GetComponent<PlayerRun> ().enabled = false;
 		}
 	}
 }
