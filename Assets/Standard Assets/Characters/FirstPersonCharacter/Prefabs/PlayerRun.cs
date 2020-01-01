@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerRun : MonoBehaviour {
 
+	public GameObject model;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -14,47 +16,47 @@ public class PlayerRun : MonoBehaviour {
 	{
 		if (Input.GetKeyDown (KeyCode.W)) 
 		{
-			gameObject.GetComponent<Animator>().SetTrigger ("Walk");
+			model.GetComponent<Animator>().SetTrigger ("Walk");
 		}
 
 		if (Input.GetKeyUp (KeyCode.W)) 
 		{
-			gameObject.GetComponent<Animator>().SetTrigger ("Idle");
+			model.GetComponent<Animator>().SetTrigger ("Idle");
 		}
 
 		if (Input.GetKeyDown (KeyCode.S)) 
 		{
-			gameObject.GetComponent<Animator>().SetTrigger ("Back");
+			model.GetComponent<Animator>().SetTrigger ("Back");
 		}
 
 		if (Input.GetKeyUp (KeyCode.S)) 
 		{
-			gameObject.GetComponent<Animator>().SetTrigger ("Idle");
+			model.GetComponent<Animator>().SetTrigger ("Idle");
 		}
 
 		if (Input.GetKeyDown (KeyCode.A)) 
 		{
-			gameObject.GetComponent<Animator>().SetTrigger ("Left");
+			model.GetComponent<Animator>().SetTrigger ("Left");
 		}
 
 		if (Input.GetKeyUp (KeyCode.A)) 
 		{
-			gameObject.GetComponent<Animator>().SetTrigger ("Idle");
+			model.GetComponent<Animator>().SetTrigger ("Idle");
 		}
 
 		if (Input.GetKeyDown (KeyCode.D)) 
 		{
-			gameObject.GetComponent<Animator>().SetTrigger ("Right");
+			model.GetComponent<Animator>().SetTrigger ("Right");
 		}
 
 		if (Input.GetKeyUp (KeyCode.D)) 
 		{
-			gameObject.GetComponent<Animator>().SetTrigger ("Idle");
+			model.GetComponent<Animator>().SetTrigger ("Idle");
 		}
 
 		if (Input.GetKeyDown (KeyCode.Space)) 
 		{
-			gameObject.GetComponent<Animator>().SetTrigger ("Jump");
+			model.GetComponent<Animator>().SetTrigger ("Jump");
 		}
 	}
 }
