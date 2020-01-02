@@ -9,6 +9,7 @@ TagManager:
   - Wall
   - Doorway
   - Ladder
+  - Door
   layers:
   - Default
   - TransparentFX
